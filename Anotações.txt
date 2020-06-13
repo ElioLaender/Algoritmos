@@ -1,1 +1,3 @@
-// Anotações
+* Selection Sort: Algoritmo que se baseia em outro algoritmo para realizar a ordenação, sendo que esse outro algoritmo é responsável por trazer o maior ou menor valor levando de acordo com o critério especificado.
+
+ 

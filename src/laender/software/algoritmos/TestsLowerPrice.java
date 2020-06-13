@@ -24,7 +24,7 @@ public class TestsLowerPrice {
 		}
 		
 		int cheaperThan = 0;
-		for (int current = start; current < end; current++) {
+		for (int current = start; current <= end; current++) {
 			if (products[current].getPrice() < products[cheaperThan].getPrice()) {
 			    cheaperThan = current;
 			}
