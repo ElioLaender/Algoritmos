@@ -6,13 +6,13 @@ public class OrdenationTest {
 		  Product[] products = {
 				    new Product("Lamborghini", 1000000),
 				    new Product("Jipe", 46000),
-				    new Product("Brasília", 16000),
+				    new Product("BrasÃ­lia", 16000),
 				    new Product("Smart", 46000),
 				    new Product("Fusca", 17000)
 				};
 	    
 		  selectionSort(products, products.length);
-		  insertSort(products, products.length);
+		  insertionSort(products, products.length);
 	 }
 	  
 	 private static void selectionSort(Product[] products, int numberOfElements) {
@@ -41,7 +41,7 @@ public class OrdenationTest {
 		 System.out.println("\n");
 	 }
 	  
-	 // Utilizado como regra de ordenação para o selectionSort
+	 // Utilizado como regra de ordenaÃ§Ã£o para o selectionSort
 	 private static int minorSearch(Product[] products, int start, int end) throws IllegalArgumentException {
 		 
 	     if (start > end) {
@@ -58,7 +58,7 @@ public class OrdenationTest {
 		 return cheaperThan;
 	}
 	 
-	 private static void insertSort(Product[] products, int numberOfElements) {
+	 private static void insertionSort(Product[] products, int numberOfElements) {
 		
 		 System.out.println("--INSERTION SORT--");
 		 
